@@ -1,0 +1,7 @@
+docker run -d devopsdockeruh/exec_bash_exercise
+docker ps
+docker exec -it jolly_roentgen bash
+tail -f ./logs.txt
+
+Secret message is:
+"Docker is easy"
